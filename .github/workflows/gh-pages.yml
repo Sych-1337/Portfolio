@@ -23,9 +23,21 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy static data to dist
+        run: |
+          # ensure data used by the client is published
+          if [ -d data ]; then
+            mkdir -p dist/data
+            cp -R data/* dist/data/
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # For repositories with restrictive workflow permissions or when the
+          # default GITHUB_TOKEN cannot push, create a Personal Access Token (PAT)
+          # with `repo` scope and save it as repository secret `PERSONAL_TOKEN`.
+          # Then the action will use that token to push the `gh-pages` branch.
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
