@@ -353,27 +353,42 @@ const App: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-             {t.projects.map((proj, i) => (
-               <div key={i} className="group relative bg-zinc-950 border border-white/5 p-12 lg:p-16 overflow-hidden section-fade interactive">
-                  <div className="relative z-10 space-y-12">
-                    <div className="flex justify-between items-start">
-                       <div className="mono text-[10px] text-zinc-700">{proj.company}</div>
-                       <div className="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-black transition-all">
-                         <ChevronRight size={20} />
-                       </div>
+             {t.projects.map((proj, i) => {
+               // Define project URLs
+               const projectUrls = {
+                 '4Life': 'https://play.google.com/store/apps/details?id=com.FourLife',
+                 'Latvijas Radio': 'https://play.google.com/store/apps/details?id=lv.latvijasradio'
+               };
+               const projectUrl = projectUrls[proj.name as keyof typeof projectUrls];
+               
+               return (
+                 <a 
+                   key={i} 
+                   href={projectUrl} 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="group relative bg-zinc-950 border border-white/5 p-12 lg:p-16 overflow-hidden section-fade interactive block"
+                 >
+                    <div className="relative z-10 space-y-12">
+                      <div className="flex justify-between items-start">
+                         <div className="mono text-[10px] text-zinc-700">{proj.company}</div>
+                         <div className="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-black transition-all">
+                           <ExternalLink size={20} />
+                         </div>
+                      </div>
+                      <h3 className="text-4xl lg:text-5xl font-bold text-white tracking-tighter">{proj.name}</h3>
+                      <p className="text-zinc-500 text-lg font-light leading-relaxed max-w-lg">{proj.desc}</p>
+                      <div className="mono text-[10px] text-zinc-600 border-t border-zinc-900 pt-8 uppercase tracking-widest">
+                        {proj.tech}
+                      </div>
                     </div>
-                    <h3 className="text-4xl lg:text-5xl font-bold text-white tracking-tighter">{proj.name}</h3>
-                    <p className="text-zinc-500 text-lg font-light leading-relaxed max-w-lg">{proj.desc}</p>
-                    <div className="mono text-[10px] text-zinc-600 border-t border-zinc-900 pt-8 uppercase tracking-widest">
-                      {proj.tech}
+                    {/* Background decoration */}
+                    <div className="absolute -bottom-20 -right-20 text-[15rem] font-black text-white/[0.01] pointer-events-none select-none">
+                      0{i+1}
                     </div>
-                  </div>
-                  {/* Background decoration */}
-                  <div className="absolute -bottom-20 -right-20 text-[15rem] font-black text-white/[0.01] pointer-events-none select-none">
-                    0{i+1}
-                  </div>
-               </div>
-             ))}
+                 </a>
+               );
+             })}
           </div>
         </div>
       </section>
