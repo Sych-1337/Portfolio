@@ -1,0 +1,312 @@
+
+{
+  "name": "Nazar Kuzenko",
+  "contacts": {
+    "phone": { "display": "+380 98 707 7011", "url": "tel:+380987077011" },
+    "email": { "display": "nozerrr@gmail.com", "url": "mailto:nozerrr@gmail.com" },
+    "telegram": { "display": "@Sych1337", "url": "https://t.me/Sych1337" },
+    "github": { "display": "github.com/nazarkuzenko", "url": "https://github.com/nazarkuzenko" }
+  },
+  "techStack": {
+    "Android": [
+      "Kotlin & Java — Primary development languages",
+      "Jetpack Compose — Declarative UI for modern feature sets",
+      "Dagger Hilt & Koin — Advanced dependency injection",
+      "Coroutines & Flow — Reactive asynchrony and stream handling",
+      "Navigation Component — Fragment and Compose-based routing",
+      "WorkManager — Reliable background task scheduling",
+      "Media3 / ExoPlayer — High-performance audio and video playback",
+      "CameraX — Modern camera and image processing API",
+      "JUnit & Mockk — Comprehensive unit testing",
+      "Espresso — Native UI automation and testing",
+      "Android Profiler — Memory, CPU, and network leak detection",
+      "Modularization — Large-scale project structuring",
+      "Gradle (KTS) — Build automation and custom plugins",
+      "WebView — Native-to-web bridge and hybrid orchestration"
+    ],
+    "Cross-Platform": [
+      "React Native — 2+ years of enterprise-scale full-cycle development",
+      "Redux & Zustand — Scalable state management for React apps",
+      "React Navigation — Complex deep-linking and routing logic",
+      "Native Modules — Custom bridge development for Android & iOS",
+      "Expo & CLI — Managed and bare workflow orchestration",
+      "Flutter (Dart) — Multi-platform product development",
+      "Riverpod & BLoC — Enterprise-grade state management",
+      "Platform Channels — Bi-directional native API integrations",
+      "Shorebird — Over-the-air (OTA) code push for Flutter",
+      "Rive — High-performance interactive vector animations",
+      "SwiftUI — Modern iOS UI implementation",
+      "UIKit — Support for established iOS enterprise solutions",
+      "Shared Business Logic — Kotlin Multiplatform & C++ cores",
+      "GetIt — Service locator and dependency management",
+      "Flutter Web & Desktop — Porting mobile apps to large screens"
+    ],
+    "Security & High-Risk": [
+      "Advanced Obfuscation — ProGuard and DexGuard R&D",
+      "Root & Jailbreak Detection — Environment integrity checks",
+      "SSL Pinning — Network layer certificate pinning",
+      "App Hardening — Survivability in restrictive stores",
+      "Anti-Ban Techniques — Stealth logic and proxy handling",
+      "Device Fingerprinting — Advanced fraud prevention R&D",
+      "Biometric Auth — Secure Fingerprint and FaceID integration",
+      "VPN & Proxy Detection — Geo-compliance enforcement",
+      "SafetyNet / Play Integrity — Google-certified security API",
+      "Safe Storage — Encrypted SharedPreferences and SQLCipher"
+    ],
+    "Analytics & Marketing": [
+      "AppsFlyer — Enterprise attribution and deep linking",
+      "Adjust — Global attribution and fraud prevention",
+      "Mixpanel — Advanced user behavior and event tracking",
+      "OneSignal — Scalable push notification and IAM systems",
+      "Facebook SDK — Targeted marketing analytics and events",
+      "Braze — Customer engagement and lifecycle marketing",
+      "A/B Testing — Firebase Remote Config and custom experiments",
+      "Segment — Customer data platform (CDP) orchestration",
+      "Google Analytics (G4A) — Core product metrics and tracking",
+      "Dynamic Links — User referral and deferred deep linking"
+    ],
+    "Infrastructure & Tools": [
+      "Retrofit & OkHttp — High-performance networking layer",
+      "GraphQL / Apollo — Efficient data fetching and caching",
+      "Protobuf & gRPC — High-speed binary communication",
+      "WebSockets — Real-time bidirectional data streaming",
+      "Room — Offline-first persistent database logic",
+      "Fastlane — Deployment and metadata automation",
+      "Bitrise & CI/CD — Mobile-first continuous integration",
+      "GitHub Actions — Automated workflows and code quality",
+      "Firebase Suite — Auth, Firestore, and Crashlytics",
+      "ASO Tools — AdvertMobile, ASO Gen, and AppRadar",
+      "Unity 3D — Engine-to-native UI/Game integrations",
+      "Figma — Design-to-code technical collaboration",
+      "Docker — Containerized CI/CD build environments",
+      "Jira & Confluence — Agile lifecycle management"
+    ]
+  },
+  "i18n": {
+    "en": {
+      "roles": ["Senior Android / Cross-Platform Developer", "Android · Flutter · iOS · React Native"],
+      "location": "Kyiv, Ukraine (Remote)",
+      "about": "Hands-on Senior Lead with deep expertise in high-load gambling products and security-focused mobile engineering. I build resilient, high-traffic applications with a focus on architecture, stealth R&D, and performance optimization.",
+      "hero_title": "SENIOR<br/>MOBILE<br/>ENGINEER.",
+      "hero_desc": "Architecting resilient mobile products for high-performance ecosystems.",
+      "hero_focus": "Hands-on Architecture, Security, and Stealth R&D.",
+      "nav": ["About", "Experience", "Projects", "Stack", "Contact"],
+      "sections": {
+        "experience": "Commercial Track",
+        "projects": "Project Experience",
+        "stack": "Detailed Tech Stack",
+        "languages": "Languages",
+        "cta_title": "CODE.<br/>BUILD.<br/>DEPLOY."
+      },
+      "specialization": [
+        { "title": "Gambling & High-Risk", "desc": "Full-cycle engineering of production gambling apps, focusing on survivability and rapid iteration." },
+        { "title": "Stealth & Security", "desc": "Developing anti-ban solutions, app hardening, and advanced obfuscation for high-risk products." },
+        { "title": "Architecture Mastery", "desc": "Designing modular Clean/MVI systems optimized for massive traffic and stability." },
+        { "title": "Marketing Tech", "desc": "Seamless integration of AppsFlyer, Facebook SDK, and complex conversion funnels." }
+      ],
+      "experience": [
+        {
+          "company": "FAVBET",
+          "role": "Senior / Lead Android Developer",
+          "period": "Oct 2020 – Jan 2026",
+          "details": [
+            "Actively developed core production gambling apps, prioritizing performance and 99.9% crash-free stability.",
+            "Architected modular systems to handle massive traffic spikes during global sporting events.",
+            "Integrated complex marketing/analytics SDKs and engineered custom high-speed WebView bridges.",
+            "Collaborated on UI/UX improvements to optimize user retention and onboarding funnels."
+          ]
+        },
+        {
+          "company": "Traffic Devils",
+          "role": "Senior Android / Flutter Developer",
+          "period": "Sep 2023 – Mar 2024",
+          "details": [
+            "Owned Flutter + Native Android/iOS development for traffic-acquisition mobile products.",
+            "Engineered cross-platform architectures with deep native integrations via Platform Channels.",
+            "Optimized application performance to maximize conversion rates in high-volume traffic scenarios."
+          ]
+        },
+        {
+          "company": "Playtini / 3XTER Team",
+          "role": "Senior / Lead Android Developer",
+          "period": "Mar 2023 – Aug 2023",
+          "details": [
+            "Developed high-risk mobile solutions for Android and iOS with a primary focus on security.",
+            "Conducted architectural audits and led code reviews to implement Clean Architecture standards.",
+            "Researched and implemented custom app hardening and stealth obfuscation techniques."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "company": "Efumo SSC (Latvia)",
+          "name": "Latvijas Radio",
+          "desc": "Developed a national media platform. Solved low-latency audio streaming and background playback stability in a native Java environment.",
+          "tech": "Java, Streaming API, MediaSession"
+        },
+        {
+          "company": "Efumo SSC (Latvia)",
+          "name": "4Life",
+          "desc": "Led full-cycle Android development for a commercial enterprise app, focusing on feature scaling and offline-first stability.",
+          "tech": "Android SDK, Room, Offline Sync"
+        }
+      ],
+      "lang_levels": [
+        { "name": "English", "level": "B2 (Professional)" },
+        { "name": "Ukrainian", "level": "Native" },
+        { "name": "Russian", "level": "Native" }
+      ],
+      "seo": { "title": "Nazar Kuzenko | Senior Mobile Developer", "description": "Portfolio of Nazar Kuzenko, Senior Lead Android & Flutter Developer specialized in Gambling and Security." }
+    },
+    "uk": {
+      "roles": ["Senior Android / Cross-Platform Developer", "Android · Flutter · iOS · React Native"],
+      "location": "Київ, Україна (Remote)",
+      "about": "Hands-on Senior Lead з глибокою експертизою у високонавантажених гемблінг-продуктах та безпековій мобільній інженерії. Я створюю стійкі додатки для великого трафіку, фокусуючись на архітектурі, прихованих R&D рішеннях та оптимізації продуктивності.",
+      "hero_title": "SENIOR<br/>MOBILE<br/>ENGINEER.",
+      "hero_desc": "Проектування стійких мобільних продуктів для високоефективних екосистем.",
+      "hero_focus": "Hands-on Архітектура, Безпека та Stealth R&D.",
+      "nav": ["Про мене", "Досвід", "Проєкти", "Стек", "Контакти"],
+      "sections": {
+        "experience": "Комерційний шлях",
+        "projects": "Проєктний досвід",
+        "stack": "Технологічний стек",
+        "languages": "Мови",
+        "cta_title": "CODE.<br/>BUILD.<br/>DEPLOY."
+      },
+      "specialization": [
+        { "title": "Гемблінг та High-Risk", "desc": "Повний цикл розробки продуктових гемблінг-додатків, фокус на виживаності в сторах та швидких ітераціях." },
+        { "title": "Stealth & Security", "desc": "Розробка рішень проти банів, харднінг додатків та просунута обфускація для high-risk продуктів." },
+        { "title": "Майстерність архітектури", "desc": "Проектування модульних систем на базі Clean/MVI, оптимізованих для великого трафіку та стабільності." },
+        { "title": "Marketing Tech", "desc": "Безшовна інтеграція AppsFlyer, Facebook SDK та складних воронок конверсії." }
+      ],
+      "experience": [
+        {
+          "company": "FAVBET",
+          "role": "Senior / Lead Android Developer",
+          "period": "Жовт 2020 – Січ 2026",
+          "details": [
+            "Активна розробка основних гемблінг-додатків з пріоритетом на продуктивність та стабільність (99.9% crash-free).",
+            "Архітектура модульних систем для обробки пікових навантажень під час світових спортивних подій.",
+            "Інтеграція складних маркетингових/аналітичних SDK та розробка кастомних швидкісних WebView-мостів.",
+            "Спільна робота над UI/UX для оптимізації утримання користувачів та воронок онбордингу."
+          ]
+        },
+        {
+          "company": "Traffic Devils",
+          "role": "Senior Android / Flutter Developer",
+          "period": "Верес 2023 – Берез 2024",
+          "details": [
+            "Відповідав за розробку Flutter + Native Android/iOS для продуктів залучення трафіку.",
+            "Проектування кросплатформових архітектур з глибокою нативною інтеграцією через Platform Channels.",
+            "Оптимізація продуктивності додатків для максимізації конверсії в сценаріях з великим обсягом трафіку."
+          ]
+        },
+        {
+          "company": "Playtini / 3XTER Team",
+          "role": "Senior / Lead Android Developer",
+          "period": "Берез 2023 – Серп 2023",
+          "details": [
+            "Розробка high-risk мобільних рішень для Android та iOS з основним фокусом на безпеці.",
+            "Проведення архітектурних аудитів та код-рев'ю для впровадження стандартів Clean Architecture.",
+            "Дослідження та впровадження кастомних технік харднінгу та прихованої обфускації."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "company": "Efumo SSC (Латвія)",
+          "name": "Latvijas Radio",
+          "desc": "Розробка національної медіа-платформи. Вирішення проблем низької затримки аудіострімінгу та стабільності фонового відтворення в нативному Java середовищі.",
+          "tech": "Java, Streaming API, MediaSession"
+        },
+        {
+          "company": "Efumo SSC (Латвія)",
+          "name": "4Life",
+          "desc": "Повний цикл Android-розробки для комерційного корпоративного додатка, фокус на масштабуванні функціоналу та стабільності offline-first.",
+          "tech": "Android SDK, Room, Offline Sync"
+        }
+      ],
+      "lang_levels": [
+        { "name": "Англійська", "level": "B2 (Професійна)" },
+        { "name": "Українська", "level": "Рідна" },
+        { "name": "Російська", "level": "Рідна" }
+      ],
+      "seo": { "title": "Назар Кузенко | Senior Mobile Developer", "description": "Портфоліо Назара Кузенко, Senior Lead Android & Flutter розробника, спеціаліста в гемблінгу та безпеці." }
+    },
+    "ru": {
+      "roles": ["Senior Android / Cross-Platform Developer", "Android · Flutter · iOS · React Native"],
+      "location": "Киев, Украина (Remote)",
+      "about": "Hands-on Senior Lead с глубокой экспертизой в высоконагруженных гемблинг-продуктах и защищенной мобильной инженерии. Я создаю устойчивые приложения для большого трафика, фокусируясь на архитектуре, скрытых R&D решениях и оптимизации производительности.",
+      "hero_title": "SENIOR<br/>MOBILE<br/>ENGINEER.",
+      "hero_desc": "Проектирование устойчивых мобильных продуктов для высокоэффективных систем.",
+      "hero_focus": "Hands-on Архитектура, Безопасность и Stealth R&D.",
+      "nav": ["Обо мне", "Опыт", "Проекты", "Стек", "Контакты"],
+      "sections": {
+        "experience": "Коммерческий путь",
+        "projects": "Проектный опыт",
+        "stack": "Технологический стек",
+        "languages": "Языки",
+        "cta_title": "CODE.<br/>BUILD.<br/>DEPLOY."
+      },
+      "specialization": [
+        { "title": "Гемблинг и High-Risk", "desc": "Полный цикл разработки продуктовых гемблинг-приложений, фокус на выживаемости в сторах и быстрых итерациях." },
+        { "title": "Stealth & Security", "desc": "Разработка решений против банов, харднинг приложений и продвинутая обфускация для high-risk продуктов." },
+        { "title": "Мастерство архитектуры", "desc": "Проектирование модульных систем на базе Clean/MVI, оптимизированных для большого трафика и стабильности." },
+        { "title": "Marketing Tech", "desc": "Бесшовная интеграция AppsFlyer, Facebook SDK и сложных воронок конверсии." }
+      ],
+      "experience": [
+        {
+          "company": "FAVBET",
+          "role": "Senior / Lead Android Developer",
+          "period": "Окт 2020 – Янв 2026",
+          "details": [
+            "Активная разработка основных гемблинг-приложений with priority on performance and 99.9% crash-free stability.",
+            "Архитектура модульных систем для обработки пиковых нагрузок во время мировых спортивных событий.",
+            "Интеграция сложных маркетинговых/аналитических SDK и разработка кастомных скоростных WebView-мостов.",
+            "Совместная работа над UI/UX для оптимизации удержания пользователей и воронок онбордингу."
+          ]
+        },
+        {
+          "company": "Traffic Devils",
+          "role": "Senior Android / Flutter Developer",
+          "period": "Сент 2023 – Март 2024",
+          "details": [
+            "Отвечал за разработку Flutter + Native Android/iOS для продуктов привлечения трафика.",
+            "Проектирование кроссплатформенных архитектур с глубокой нативной интеграцией через Platform Channels.",
+            "Оптимизация производительности приложений для максимизации конверсии в сценариях с большим объемом трафика."
+          ]
+        },
+        {
+          "company": "Playtini / 3XTER Team",
+          "role": "Senior / Lead Android Developer",
+          "period": "Март 2023 – Авг 2023",
+          "details": [
+            "Разработка high-risk мобильных решений для Android и iOS with a primary focus on security.",
+            "Проведение архитектурных аудитов и код-ревью для внедрения стандартов Clean Architecture.",
+            "Исследование и внедрение кастомных техник харднинга и скрытой обфускации."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "company": "Efumo SSC (Латвия)",
+          "name": "Latvijas Radio",
+          "desc": "Разработка национальной медиа-платформы. Решение проблем низкой задержки аудиостриминга и стабильности фонового воспроизведения в нативной Java среде.",
+          "tech": "Java, Streaming API, MediaSession"
+        },
+        {
+          "company": "Efumo SSC (Латвия)",
+          "name": "4Life",
+          "desc": "Полный цикл Android-разработки для коммерческого корпоративного приложения, фокус на масштабировании функционала и стабильности offline-first.",
+          "tech": "Android SDK, Room, Offline Sync"
+        }
+      ],
+      "lang_levels": [
+        { "name": "Английский", "level": "B2 (Профессиональный)" },
+        { "name": "Украинский", "level": "Родной" },
+        { "name": "Русский", "level": "Родной" }
+      ],
+      "seo": { "title": "Назар Кузенко | Senior Mobile Developer", "description": "Портфолио Назара Кузенко, Senior Lead Android & Flutter разработчика, специалиста в гемблинге и безопасности." }
+    }
+  }
+}
