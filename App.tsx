@@ -17,6 +17,8 @@ import {
   Monitor
 } from 'lucide-react';
 
+import meImg from './me.jpg';
+
 type Lang = 'en' | 'uk' | 'ru';
 
 interface LocalizedContent {
@@ -105,7 +107,7 @@ const InteractivePhoto = () => {
         {/* Photo Container */}
         <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-zinc-900 shadow-2xl">
           <img 
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop" 
+            src={meImg}
             alt="Nazar Kuzenko"
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
           />
