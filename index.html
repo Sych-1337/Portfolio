@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazar Kuzenko | Senior Mobile Engineer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Nazar Kuzenko - Senior Lead Mobile Developer specialized in high-performance products, Gambling, Security R&D, and Anti-ban solutions.">
+    <meta name="keywords" content="Android Lead, Senior Android Developer, Flutter Lead, Black Apps, Gambling Developer, Security R&D, Nazar Kuzenko">
+    <meta property="og:title" content="Nazar Kuzenko | Senior Lead Mobile Developer">
+    <meta property="og:description" content="Senior Mobile Engineer specializing in secure, high-traffic ecosystems.">
+    <meta property="og:type" content="website">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --accent: #ffffff;
+            --bg: #050505;
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: var(--bg);
+            color: #a1a1aa;
+            cursor: none;
+        }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        /* Noise and Glow Effects */
+        .noise {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            opacity: 0.04;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        .cursor-dot {
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 10000;
+            transition: transform 0.1s ease;
+            mix-blend-mode: difference;
+        }
+        .cursor-outline {
+            width: 40px;
+            height: 40px;
+            border: 1px solid white;
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            mix-blend-mode: difference;
+        }
+
+        .cursor-active .cursor-outline {
+            transform: scale(1.5);
+            background: white;
+            border-color: transparent;
+        }
+
+        .section-fade {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .section-fade.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .glow-mesh {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255,255,255,0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .card-interactive {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .card-interactive:hover {
+            transform: translateY(-5px) scale(1.01);
+            border-color: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        @media (max-width: 768px) {
+            .cursor-dot, .cursor-outline { display: none; }
+            body { cursor: auto; }
+        }
+    </style>
+
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-z9ZHKgjP.js"></script>
+</head>
+<body class="antialiased overflow-x-hidden selection:bg-white selection:text-black">
+    <div class="noise"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+    <div class="glow-mesh" id="glow-mesh"></div>
+    <div id="root"></div>
+
+    <script>
+        const dot = document.getElementById('cursor-dot');
+        const outline = document.getElementById('cursor-outline');
+        const glow = document.getElementById('glow-mesh');
+
+        window.addEventListener('mousemove', (e) => {
+            const { clientX: x, clientY: y } = e;
+            
+            dot.style.left = `${x}px`;
+            dot.style.top = `${y}px`;
+            
+            outline.animate({
+                left: `${x - 20}px`,
+                top: `${y - 20}px`
+            }, { duration: 500, fill: 'forwards' });
+
+            glow.style.setProperty('--x', `${x}px`);
+            glow.style.setProperty('--y', `${y}px`);
+        });
+
+        document.addEventListener('mousedown', () => document.body.classList.add('cursor-active'));
+        document.addEventListener('mouseup', () => document.body.classList.remove('cursor-active'));
+        
+        // Handle hover on interactive elements
+        document.addEventListener('mouseover', (e) => {
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('.interactive')) {
+                document.body.classList.add('cursor-active');
+            }
+        });
+        document.addEventListener('mouseout', (e) => {
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('.interactive')) {
+                document.body.classList.remove('cursor-active');
+            }
+        });
+    </script>
+</body>
+</html>
