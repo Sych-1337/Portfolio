@@ -5,7 +5,7 @@
     "phone": { "display": "+380 98 707 7011", "url": "tel:+380987077011" },
     "email": { "display": "nozerrr@gmail.com", "url": "mailto:nozerrr@gmail.com" },
     "telegram": { "display": "@Sych1337", "url": "https://t.me/Sych1337" },
-    "github": { "display": "github.com/nazarkuzenko", "url": "https://github.com/nazarkuzenko" }
+    "github": { "display": "https://github.com/Sych-1337", "url": "https://github.com/Sych-1337" }
   },
   "techStack": {
     "Android": [
@@ -141,14 +141,16 @@
         {
           "company": "Efumo SSC (Latvia)",
           "name": "Latvijas Radio",
-          "desc": "Developed a national media platform. Solved low-latency audio streaming and background playback stability in a native Java environment.",
-          "tech": "Java, Streaming API, MediaSession"
+        "desc": "Developed a national media platform. Solved low-latency audio streaming and background playback stability in a native Java environment.",
+        "tech": "Java, Streaming API, MediaSession",
+        "url": "https://play.google.com/store/apps/details?id=lv.latvijasradio"
         },
         {
           "company": "Efumo SSC (Latvia)",
           "name": "4Life",
-          "desc": "Led full-cycle Android development for a commercial enterprise app, focusing on feature scaling and offline-first stability.",
-          "tech": "Android SDK, Room, Offline Sync"
+        "desc": "Led full-cycle Android development for a commercial enterprise app, focusing on feature scaling and offline-first stability.",
+        "tech": "Android SDK, Room, Offline Sync",
+        "url": "https://play.google.com/store/apps/details?id=com.FourLife"
         }
       ],
       "lang_levels": [
@@ -216,14 +218,16 @@
         {
           "company": "Efumo SSC (Латвія)",
           "name": "Latvijas Radio",
-          "desc": "Розробка національної медіа-платформи. Вирішення проблем низької затримки аудіострімінгу та стабільності фонового відтворення в нативному Java середовищі.",
-          "tech": "Java, Streaming API, MediaSession"
+        "desc": "Розробка національної медіа-платформи. Вирішення проблем низької затримки аудіострімінгу та стабільності фонового відтворення в нативному Java середовищі.",
+        "tech": "Java, Streaming API, MediaSession",
+        "url": "https://play.google.com/store/apps/details?id=lv.latvijasradio"
         },
         {
           "company": "Efumo SSC (Латвія)",
           "name": "4Life",
-          "desc": "Повний цикл Android-розробки для комерційного корпоративного додатка, фокус на масштабуванні функціоналу та стабільності offline-first.",
-          "tech": "Android SDK, Room, Offline Sync"
+        "desc": "Повний цикл Android-розробки для комерційного корпоративного додатка, фокус на масштабуванні функціоналу та стабільності offline-first.",
+        "tech": "Android SDK, Room, Offline Sync",
+        "url": "https://play.google.com/store/apps/details?id=com.FourLife"
         }
       ],
       "lang_levels": [
@@ -291,14 +295,16 @@
         {
           "company": "Efumo SSC (Латвия)",
           "name": "Latvijas Radio",
-          "desc": "Разработка национальной медиа-платформы. Решение проблем низкой задержки аудиостриминга и стабильности фонового воспроизведения в нативной Java среде.",
-          "tech": "Java, Streaming API, MediaSession"
+        "desc": "Разработка национальной медиа-платформы. Решение проблем низкой задержки аудиостриминга и стабильности фонового воспроизведения в нативной Java среде.",
+        "tech": "Java, Streaming API, MediaSession",
+        "url": "https://play.google.com/store/apps/details?id=lv.latvijasradio"
         },
         {
           "company": "Efumo SSC (Латвия)",
           "name": "4Life",
-          "desc": "Полный цикл Android-разработки для коммерческого корпоративного приложения, фокус на масштабировании функционала и стабильности offline-first.",
-          "tech": "Android SDK, Room, Offline Sync"
+        "desc": "Полный цикл Android-разработки для коммерческого корпоративного приложения, фокус на масштабировании функционала и стабильности offline-first.",
+        "tech": "Android SDK, Room, Offline Sync",
+        "url": "https://play.google.com/store/apps/details?id=com.FourLife"
         }
       ],
       "lang_levels": [
