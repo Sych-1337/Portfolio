@@ -48,6 +48,7 @@ interface LocalizedContent {
     name: string;
     desc: string;
     tech: string;
+    url?: string;
   }[];
   lang_levels: { name: string; level: string }[];
   seo: { title: string; description: string };
@@ -354,12 +355,11 @@ const App: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
              {t.projects.map((proj, i) => {
-               // Define project URLs
-               const projectUrls = {
+               const projectUrls: Record<string, string> = {
                  '4Life': 'https://play.google.com/store/apps/details?id=com.FourLife',
                  'Latvijas Radio': 'https://play.google.com/store/apps/details?id=lv.latvijasradio'
                };
-               const projectUrl = projectUrls[proj.name as keyof typeof projectUrls];
+               const projectUrl = proj.url ?? projectUrls[proj.name] ?? '#';
                
                return (
                  <a 
