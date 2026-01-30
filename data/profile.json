@@ -154,6 +154,34 @@
         "desc": "Led full-cycle Android development for a commercial enterprise app, focusing on feature scaling and offline-first stability.",
         "tech": "Android SDK, Room, Offline Sync",
         "url": "https://play.google.com/store/apps/details?id=com.FourLife"
+        },
+        {
+          "company": "NDA",
+          "name": "Crypto Traffic Apps",
+          "desc": "Development of applications for crypto traffic with Telegram integration.",
+          "tech": "Telegram API, Crypto, Mobile",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "TDS",
+          "desc": "Traffic Distribution System development.",
+          "tech": "TDS, Backend, Integration",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "App Rental Bots",
+          "desc": "Telegram bots for app rental service.",
+          "tech": "Telegram Bot API, Python/Node",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "Gambling Mini App Bots",
+          "desc": "Bots for Gambling using Telegram Mini App.",
+          "tech": "Mini App, Telegram, Gambling",
+          "url": "#"
         }
       ],
       "lang_levels": [
@@ -234,6 +262,34 @@
         "desc": "Повний цикл Android-розробки для комерційного корпоративного додатка, фокус на масштабуванні функціоналу та стабільності offline-first.",
         "tech": "Android SDK, Room, Offline Sync",
         "url": "https://play.google.com/store/apps/details?id=com.FourLife"
+        },
+        {
+          "company": "NDA",
+          "name": "Crypto Traffic Apps",
+          "desc": "Розробка додатків під криптотрафік з інтеграцією в Telegram.",
+          "tech": "Telegram API, Crypto, Mobile",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "TDS",
+          "desc": "Розробка системи дистрибуції трафіку (TDS).",
+          "tech": "TDS, Backend, Integration",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "App Rental Bots",
+          "desc": "Боти в Telegram для сервісу оренди додатків.",
+          "tech": "Telegram Bot API, Python/Node",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "Gambling Mini App Bots",
+          "desc": "Боти для Gambling з використанням Mini App.",
+          "tech": "Mini App, Telegram, Gambling",
+          "url": "#"
         }
       ],
       "lang_levels": [
@@ -314,6 +370,34 @@
         "desc": "Полный цикл Android-разработки для коммерческого корпоративного приложения, фокус на масштабировании функционала и стабильности offline-first.",
         "tech": "Android SDK, Room, Offline Sync",
         "url": "https://play.google.com/store/apps/details?id=com.FourLife"
+        },
+        {
+          "company": "NDA",
+          "name": "Crypto Traffic Apps",
+          "desc": "Разработка приложений под криптотрафик с интеграцией в Telegram.",
+          "tech": "Telegram API, Crypto, Mobile",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "TDS",
+          "desc": "Разработка TDS (система дистрибуции трафика).",
+          "tech": "TDS, Backend, Integration",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "App Rental Bots",
+          "desc": "Боты в Telegram для сервиса аренды приложений.",
+          "tech": "Telegram Bot API, Python/Node",
+          "url": "#"
+        },
+        {
+          "company": "NDA",
+          "name": "Gambling Mini App Bots",
+          "desc": "Боты для Gambling с использованием Mini App.",
+          "tech": "Mini App, Telegram, Gambling",
+          "url": "#"
         }
       ],
       "lang_levels": [
